@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/BenjamsC08/so_long/blob/main/.ressources_git/so_long_1.gif" alt="GIF du projet So_Long">
+  <img src="https://github.com/BenjamsC08/42_CC/blob/main/02_so_long/.ressources_git/so_long_1.gif" alt="GIF du projet So_Long">
 </p>
 
 ---
