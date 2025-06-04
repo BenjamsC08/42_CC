@@ -1,0 +1,8 @@
+server
+client
+*/*.o
+*.o
+help_me
+srcs/bak.c
+srcs/pingpong.c
+minitalk-Tester

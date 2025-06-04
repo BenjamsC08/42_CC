@@ -1,0 +1,10 @@
+*.o
+*/*.o
+/push_swap
+# pseudo.txt
+push_swap_tester
+push_swap_tester/*
+*.log
+checker_linux
+*.txt
+checker
