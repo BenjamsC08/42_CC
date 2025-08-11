@@ -32,7 +32,7 @@ Ce projet a suscité une passion pour la programmation multi-threadée, m'incita
 ## Utilisation
 1. Clonez le dépôt.
 2. Exécutez `make` pour compiler le projet.
-3. Lancez le programme avec les arguments requis : `./philo nombre_philosophes temps_mourir temps_manger temps_dormir [nombre_repas]`.
+3. Lancez le programme avec les arguments requis : `./philo <nombre_philosophes> <temps_mourir> <temps_manger> <temps_dormir> [nombre_repas]`.
 
 Exemple : `./philo 5 800 200 200`.
 
