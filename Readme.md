@@ -5,6 +5,7 @@
 </p>
 
 <hr>
+
 # Mon Common Core à 42
 ## <a name="sommaire-fr"></a>🇫🇷 Sommaire
 
@@ -18,6 +19,7 @@
 - 3-2: [<a href="https://github.com/BenjamsC08/42_CC/tree/main/03_philosophers">Philosophers</a>](https://github.com/BenjamsC08/42_CC/tree/main/03_philosophers): Problème des philosophes dinant avec plusieurs threads.
 
 <hr>
+
 # My Common Core at 42
 ## <a name="summary-en"></a>🇬🇧 Summary
 
