@@ -4,8 +4,6 @@
   <a href="#explication-fr">🇫🇷</a> | <a href="#explanation-en">🇬🇧</a>
 </p>
 
-# Minishell
-
 ## <a name="explication-fr"></a>🇫🇷 Description
 Minishell est un projet réalisé dans le cadre du cursus de l'école 42. Il consiste à créer un shell simplifié capable d'exécuter des commandes de base, en imitant certaines fonctionnalités du shell Unix. Ce projet a permis d'approfondir les concepts d'analyse syntaxique, de gestion des processus, des descripteurs de fichiers (file descriptors) et de l'exécution de commandes.
 
