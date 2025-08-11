@@ -1,4 +1,4 @@
-# 42 Common Core
+<h1 align="center">42 Common Core</h1>
 
 <p align="center">
   <a href="#sommaire-fr">🇫🇷</a> | <a href="#summary-en">🇬🇧</a>
