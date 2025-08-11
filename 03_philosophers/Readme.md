@@ -4,6 +4,8 @@
   <a href="#explication-fr">🇫🇷</a> | <a href="#explanation-en">🇬🇧</a>
 </p>
 
+---
+
 ## <a name="explication-fr"></a>🇫🇷 Description
 Philosophes est un projet du cursus de l'école 42 conçu pour initier aux concepts de programmation multi-threadée et de synchronisation des threads. Le projet simule le problème classique des "Philosophes attablés", où plusieurs philosophes doivent partager un nombre limité de fourchettes pour manger, penser et dormir sans provoquer de blocages ou de famine de ressources. Ce projet m'a plongé dans la gestion de processus concurrents, la sécurisation des threads et l'allocation efficace des ressources.
 
@@ -35,6 +37,8 @@ Ce projet a suscité une passion pour la programmation multi-threadée, m'incita
 3. Lancez le programme avec les arguments requis : `./philo <nombre_philosophes> <temps_mourir> <temps_manger> <temps_dormir> [nombre_repas]`.
 
 Exemple : `./philo 5 800 200 200`.
+
+---
 
 ## <a name="explanation-en"></a>🇬🇧 Overview
 Philosophers is a project from the 42 school curriculum designed to introduce the concepts of multi-threaded programming and thread synchronization. The project simulates the classic "Dining Philosophers" problem, where multiple philosophers must share a limited number of forks to eat, think, and sleep without causing deadlocks or resource starvation. This project was a deep dive into managing concurrent processes, ensuring thread safety, and handling resource allocation efficiently.

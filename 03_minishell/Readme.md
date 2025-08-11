@@ -4,6 +4,8 @@
   <a href="#explication-fr">🇫🇷</a> | <a href="#explanation-en">🇬🇧</a>
 </p>
 
+---
+
 ## <a name="explication-fr"></a>🇫🇷 Description
 Minishell est un projet réalisé dans le cadre du cursus de l'école 42. Il consiste à créer un shell simplifié capable d'exécuter des commandes de base, en imitant certaines fonctionnalités du shell Unix. Ce projet a permis d'approfondir les concepts d'analyse syntaxique, de gestion des processus, des descripteurs de fichiers (file descriptors) et de l'exécution de commandes.
 
@@ -16,6 +18,7 @@ Minishell est un projet réalisé dans le cadre du cursus de l'école 42. Il con
 ## Expérience
 Ce projet a été réalisé en binôme, marquant notre première expérience de travail en groupe. Il a permis de développer des compétences en collaboration et en gestion de projet, notamment via l'utilisation d'outils comme Git pour le contrôle de version. Cette expérience a été particulièrement enrichissante et formatrice, renforçant notre compréhension des systèmes Unix et des outils de développement collaboratif.
 
+---
 
 ## <a name="explanation-en"></a>🇬🇧 Overview
 Minishell is a project developed as part of the 42 curriculum. It implements a simplified shell that mimics basic functionalities of a Unix shell, focusing on parsing, process management, file descriptors, and command execution.
