@@ -1,0 +1,19 @@
+{
+   <readline() suppression>
+   Memcheck:Leak
+   ...
+   fun:readline
+}
+{
+   <add_history() suppression>
+   Memcheck:Leak
+   ...
+   fun:add_history
+}
+{
+   <Not built-in suppression>
+   Memcheck:Leak
+   ...
+   obj:/*/bin/*
+   ...
+}
