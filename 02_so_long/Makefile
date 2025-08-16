@@ -24,7 +24,7 @@ all: MLX LIBFT $(NAME)
 DL_MLX:
 	@if [ ! -d "mlx_linux" ]; then \
         echo "Downloading and extracting minilibx..."; \
-        wget https://cdn.intra.42.fr/document/document/26792/minilibx-linux.tgz >> /dev/null; \
+        wget https://cdn.intra.42.fr/document/document/34997/minilibx-linux.tgz >> /dev/null; \
         tar -xf minilibx-linux.tgz; \
         mv minilibx-linux mlx_linux; \
     else \
@@ -32,7 +32,7 @@ DL_MLX:
     fi
 
 MLX: DL_MLX
-	@cd mlx_linux >> /dev/null && make >> /dev/null && cd .. >> /dev/null
+	@make -C mlx_linux > /dev/null 2>&1
 
 LIBFT:
 	@cd libft >> /dev/null && make && cd .. >> /dev/null
@@ -40,13 +40,16 @@ LIBFT:
 	@$(CC) $(FLAGS) $(INCLUDE_PATH) -O3 -c $< -o $@
 $(NAME): $(OBJ)
 	$(CC) $(FLAGS) $(OBJ) $(LIB_PATH) $(LIB_NAME) $(INCLUDE_PATH) -o $(NAME)
-clean:
-	rm -rf *.o ./sources/*.o libft/srcs/*.o srcs/*.o
 clean_mlx:
+	$(MAKE) -C libft clean > /dev/null 2>&1
 	rm -rf minilibx-linux.tgz
+clean: clean_mlx
+	rm -rf *.o ./sources/*.o libft/srcs/*.o srcs/*.o
+fclean_mlx: clean_mlx
 	rm -rf mlx_linux
-fclean: clean_mlx clean
+fclean: clean
 	rm -rf $(NAME) libft/libft.a
+aclean: fclean_mlx fclean
 re : fclean all
 
 listC:
